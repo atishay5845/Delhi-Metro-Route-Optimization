@@ -8,47 +8,31 @@ The project models a real-world metro network and applies Dijkstra’s Algorithm
 Navigating a large metro network efficiently requires identifying the shortest possible route between two stations while considering distances and travel cost.
 
 This project solves the problem by:
-
 Modeling metro stations as nodes
-
 Modeling metro routes as weighted edges
-
 Computing the shortest path between source and destination
-
 Calculating the fare based on total travel distance
 
 🎯 Project Objectives
 
 Apply graph data structures to a real-world transportation problem
-
 Implement Dijkstra’s Algorithm for shortest path computation
-
 Use priority queues (min-heaps) for performance optimization
-
 Compare BFS and DFS traversal strategies
-
 Demonstrate clean, modular, and maintainable C++ code
 
 🛠 Tech Stack
 
 Language: C++
-
 Core Concepts:
-
 Graphs (Adjacency List)
-
 Dijkstra’s Algorithm
-
 Priority Queue (Min-Heap)
-
 BFS & DFS
 
 Tools:
-
 VS Code
-
 Git & GitHub
-
 🧠 System Design Overview
 Graph Representation
 
@@ -81,7 +65,7 @@ O((V + E) log V) using min-heap
 
 Used to:
 
-Always process the station with the minimum current distance
+Always process the station with minimum current distance
 
 Optimize Dijkstra’s performance
 
